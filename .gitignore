@@ -1,0 +1,46 @@
+# Environnements Python locaux
+/PFA/
+/.venv/
+/venv/
+/env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets et configuration personnelle
+.env
+.env.*
+!.env.example
+kaggle.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Données médicales et modèles générés
+/data/
+/datasets/
+/brats20-dataset-training-validation/
+/BraTS2020_TrainingData/
+/MICCAI_BraTS2020_TrainingData/
+/checkpoints/
+*.nii
+*.nii.gz
+*.h5
+*.hdf5
+*.keras
+
+# Fichiers temporaires et artefacts de construction
+*.tmp
+*.bak
+*.log
+/build/
+/dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
+Desktop.ini

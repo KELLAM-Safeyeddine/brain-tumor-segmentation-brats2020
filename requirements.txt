@@ -1,0 +1,16 @@
+# Versions relevées dans l'environnement local du projet.
+# Python utilisé dans le notebook : 3.12.10.
+tensorflow==2.21.0
+keras==3.14.0
+numpy==2.4.4
+pandas==3.0.2
+matplotlib==3.10.8
+seaborn==0.13.2
+tqdm==4.67.3
+scikit-learn==1.8.0
+scikit-image==0.26.0
+opencv-python==4.13.0.92
+nibabel==5.4.2
+h5py==3.14.0
+ipykernel==7.2.0
+Jinja2==3.1.6
